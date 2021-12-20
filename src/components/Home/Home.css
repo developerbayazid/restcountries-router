@@ -1,0 +1,14 @@
+.country-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 30px;
+  padding: 20px;
+  text-align: center;
+}
+.country {
+  border: 1px solid salmon;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px gray;
+}
