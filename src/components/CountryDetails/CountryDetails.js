@@ -12,7 +12,7 @@ const CountryDetails = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setCountryDetails(data[0]))
-    }, [])
+    }, [name])
 
     const countryFlags = countryDetails.flags ? countryDetails.flags.png : "";
     const countryName = countryDetails.name ? countryDetails.name.common : "";
